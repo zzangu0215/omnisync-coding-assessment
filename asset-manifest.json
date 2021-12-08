@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/%7Brepo-name%7D/static/css/main.365b0447.chunk.css",
+    "main.js": "/%7Brepo-name%7D/static/js/main.8a146d73.chunk.js",
+    "main.js.map": "/%7Brepo-name%7D/static/js/main.8a146d73.chunk.js.map",
+    "runtime-main.js": "/%7Brepo-name%7D/static/js/runtime-main.41bdd222.js",
+    "runtime-main.js.map": "/%7Brepo-name%7D/static/js/runtime-main.41bdd222.js.map",
+    "static/js/2.b436f25e.chunk.js": "/%7Brepo-name%7D/static/js/2.b436f25e.chunk.js",
+    "static/js/2.b436f25e.chunk.js.map": "/%7Brepo-name%7D/static/js/2.b436f25e.chunk.js.map",
+    "index.html": "/%7Brepo-name%7D/index.html",
+    "static/css/main.365b0447.chunk.css.map": "/%7Brepo-name%7D/static/css/main.365b0447.chunk.css.map",
+    "static/js/2.b436f25e.chunk.js.LICENSE.txt": "/%7Brepo-name%7D/static/js/2.b436f25e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41bdd222.js",
+    "static/js/2.b436f25e.chunk.js",
+    "static/css/main.365b0447.chunk.css",
+    "static/js/main.8a146d73.chunk.js"
+  ]
+}
