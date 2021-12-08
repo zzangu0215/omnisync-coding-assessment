@@ -1,21 +1,19 @@
 import React, { useEffect, useState } from "react";
+// import axios from "axios";
 
 import "./App.css";
 import Card from "./Card";
 import Button from "./Button";
 
 async function getGrantsData() {
-  const dataURL =
-    "https://jp-omnisync-coding-assessment.herokuapp.com/https://www.sbir.gov/api/solicitations.json?keyword=sbir";
+  const dataURL = "https://www.sbir.gov/api/solicitations.json?keyword=sbir";
 
   try {
     const res = await fetch(dataURL, {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
-        "Access-Control-Allow-Origin": "*",
       },
-      mode: "no-cors",
     });
     const grantsData = await res.json();
 
@@ -24,6 +22,12 @@ async function getGrantsData() {
     console.log(`Network Error. ${err}`);
   }
 }
+
+// const getData = () => {
+//   return axios
+//     .get("https://www.sbir.gov/api/solicitations.json?keyword=sbir")
+//     .then((res) => console.log(res.data));
+// };
 
 function App() {
   const [grantsData, setData] = useState([]);
