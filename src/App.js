@@ -5,14 +5,17 @@ import Card from "./Card";
 import Button from "./Button";
 
 async function getGrantsData() {
-  const dataURL = "https://www.sbir.gov/api/solicitations.json?keyword=sbir";
+  const dataURL =
+    "https://jp-omnisync-coding-assessment.herokuapp.com/https://www.sbir.gov/api/solicitations.json?keyword=sbir";
 
   try {
     const res = await fetch(dataURL, {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
+        "Access-Control-Allow-Origin": "*",
       },
+      mode: "no-cors",
     });
     const grantsData = await res.json();
 
