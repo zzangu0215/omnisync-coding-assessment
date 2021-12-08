@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import "./App.css";
 import Card from "./Card";
+import Button from "./Button";
 
 async function getGrantsData() {
   const dataURL = "https://www.sbir.gov/api/solicitations.json?keyword=sbir";
@@ -30,6 +31,7 @@ function App() {
   const favoriteItems = [];
   return (
     <div className="App">
+      <Button favoriteItems={favoriteItems}></Button>
       {grantsData.map((data) => (
         <Card
           key={data.solicitation_number}
