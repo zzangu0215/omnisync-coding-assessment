@@ -1,11 +1,21 @@
 # Omnisync Coding Challenge
 
-## 1. Fetch Grant Data From:
+## 💾 Installation
 
-https://www.sbir.gov/api/solicitations.json?keyword=sbir
+Clone my repository.
 
-## 2. Display data in a react card using your react UI framework of choice
+```
+git clone git@github.com:zzangu0215/omnisync-coding-assessment.git
+```
 
-## 3. Use react hooks to allow for toggling of favorited items
+Type and run **`npm i`** in your terminal to install all the dependencies in `client` side and `server` side.
 
-## 4. Export favorited grants to a json file.
+To test my app locally, type the following command to your terminal.
+
+- **`npm run develop`**
+
+Then, the new window will pop up at `http://localhost:3000`.
+
+## 💻 Demo Video
+
+You can check the demo video in this link [**YouTube Video**](https://youtu.be/I1PkHdur88Q).
