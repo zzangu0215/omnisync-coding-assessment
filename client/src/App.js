@@ -11,6 +11,7 @@ async function getGrantsData() {
   try {
     const res = await fetch(dataURL, {
       headers: {
+        "Access-Control-Allow-Origin": "*",
         "Content-Type": "application/json",
         Accept: "application/json",
       },
